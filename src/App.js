@@ -29,7 +29,7 @@ function App() {
         <h1 className=' text-orange-500 font-bold mb-20 text-2xl mt-44 max-md:mt-40 '>AXÉ SUR LA TECHNOLOGIE</h1>
         <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto max-md:w-70p'>Innover pour une Afrique meilleure</h1>
         <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-[19px] max-md:mb-10 max-md:w-full mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
-        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-30  mx-auto max-md:-mt-550px  max-md:h-[450px] max-md:w-[100%]' />
+        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-30  mx-auto max-md:-mt-550px  max-md:h-[250px] max-md:w-[100%]' />
       </div>
       <div className=' grid  text-black  lg:flex justify-between mt-20 dark:text-white'>
         <div>
