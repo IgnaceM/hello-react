@@ -19,9 +19,7 @@ function App() {
         <img src="./logo.png" alt="" className='w-36 h-10 max-md:w-32 ml-5p' />
         <div className='flex gap-5 mr-5p' >
           <h3 className='max-md:hidden flex items-center justify-center'>contactez-nous</h3>
-          <img src="./Message_48px.png" alt="" className='w-8 hidden max-md:block' />
           <h3 className='max-md:hidden flex items-center justify-center'>updev community</h3>
-          <img src="./people.png" alt="" className='w-8  h-6 mt-2 hidden max-md:block ' />
           <div>
             <button onClick={toggleTheme} className='bg-blue-300 text-black ml-5 p-2 rounded-md'>thèmes</button>
           </div>
@@ -30,12 +28,12 @@ function App() {
       <div className=''>
         <h1 className=' text-orange-500 font-bold mb-20 text-2xl mt-44 max-md:mt-28 '>AXÉ SUR LA TECHNOLOGIE</h1>
         <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto'>Innover pour une Afrique meilleure</h1>
-        <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-2xl max-md:w-95p mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
+        <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-2xl max-md:w-full mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
         <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-20  mx-auto max-md:-mt-550px max-md:w-full' />
       </div>
       <div className=' grid  text-black  lg:flex justify-between mt-20 dark:text-white'>
         <div>
-          <h3 className='text-3xl mt-0  lg:text-5xl  w-60p mx-auto flex text-left ml-0 max-md:mt-52 '>Resolution Des Problèmes Sociaux Avec Des Solutions Durables</h3>
+          <h3 className='text-3xl mt-0  lg:text-5xl  w-60p mx-auto flex text-left ml-0 max-md:mt-52 max-md:w-full '>Resolution Des Problèmes Sociaux Avec Des Solutions Durables</h3>
         </div>
         <div>
           <h1 className='text-8xl lg:text-8xl flex justify-left'>8+</h1>
@@ -203,7 +201,7 @@ function App() {
       <div className='mt-32 w-full overflow-hidden'>
         <h1 className='flex text-left text-5xl'>Roadmap</h1>
         <p className='flex text-left text-2xl  text-gray-500 mt-10 dark:text-gray-300'>les projets et l'action de UPDEV au fil des années :</p>
-        <div className='ml-36 max-md:ml-0'>
+        <div className='ml-36 max-md:-ml-5 max-md:mr-5'>
           <div className='text-left ml-32 w-40p mr-20 mt-10 max-md:ml-5p max-md:w-full'>
             <p className='mb-5 font-bold text-2xl ml-85p max-md:ml-0p'>2019</p>
             <h3 className='text-2xl text-orange-500 font-bold mb-5'>Création de l'Entreprise UPDEV</h3>
@@ -233,19 +231,19 @@ function App() {
       </div>
       <div className='mt-40 w-full'>
         <h1 className='center text-5xl'>Ils nous font confiance</h1>
-        <div className='w-70p mx-auto grid flex-wrap grid-cols-4 gap-8 justify-center  mt-20 max-md:grid-cols-2'>
-          <img src="./edu.png" alt="" className='w-56 h-20' />
-          <img src="./ukwaji.jpg" alt="" className='w-56 h-20' />
-          <img src="./cardano.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950' />
-          <img src="./ministere.jpg" alt="" className='w-56 h-20' />
-          <img src="./pelek.jpg" alt="" className='w-56 h-20' />
-          <img src="./wingo.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950' />
-          <img src="./safrochain.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950' />
-          <img src="./ikn.png" alt="" className='w-56 h-20' />
-          <img src="./Ekival-768x288-1.png" alt="" className='w-56 h-20' />
-          <img src="./agro.jpg" alt="" className='w-56 h-20' />
-          <img src="./Updev_Comunity_Logo_e07b90d064.png" alt="" className='w-56 h-20' />
-          <img src="./Updev_Challenge_Logo_White_Sans_70b30f974d.avif" alt="" className='w-56 h-20' />
+        <div className='w-70p mx-auto grid flex-wrap grid-cols-4 gap-8 justify-center  mt-20 max-md:grid-cols-1 max-md:flex max-md:flex-col max-md:w- max-md:justify-center'>
+          <img src="./edu.png" alt="" className='w-56 h-20 max-md:w-280px'  />
+          <img src="./ukwaji.jpg" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./cardano.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950 max-md:w-280px' />
+          <img src="./ministere.jpg" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./pelek.jpg" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./wingo.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950 max-md:w-280px' />
+          <img src="./safrochain.png" alt="" className='w-56 h-20 bg-blue-300 p-5 rounded-lg dark:bg-blue-950 max-md:w-280px' />
+          <img src="./ikn.png" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./Ekival-768x288-1.png" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./agro.jpg" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./Updev_Comunity_Logo_e07b90d064.png" alt="" className='w-56 h-20 max-md:w-280px' />
+          <img src="./Updev_Challenge_Logo_White_Sans_70b30f974d.avif" alt="" className='w-56 h-20 max-md:w-280px' />
 
         </div>
       </div>
@@ -259,7 +257,7 @@ function App() {
         </div>
       </div>
       <div className='flex justify-between max-md:flex-col'>
-        <div className='mt-20 w-50p bg-blue-50 h-48 shadow-lg p-10 max-md:w-full dark:bg-blue-900 '>
+        <div className='mt-20 w-50p bg-blue-50 h-48 shadow-lg p-10 max-md:w-full max-md:h-320px dark:bg-blue-900 '>
           <div className='flex justify-between items-center'>
             <img src="./original.png" alt="" className='w-24' />
             <p>Updev community</p>
