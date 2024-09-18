@@ -253,7 +253,7 @@ function App() {
           <p className='text-2xl  text-gray-500 mt-10  text-left max-md:text-[19px] max-md:w-full dark:text-gray-300'>Favoriser l'innovation technologique en permettant aux développeurs et aux technologues d'apprendre.</p>
         </div>
         <div className='flex text-left max-md:w-full max-md:mt-10'>
-          <h1 className='text-8xl'>12k+</h1>
+          <h1 className='text-8xl'>12+</h1>
         </div>
       </div>
       <div className='flex justify-between max-md:flex-col'>
