@@ -27,9 +27,9 @@ function App() {
       </div>
       <div className=''>
         <h1 className=' text-orange-500 font-bold mb-20 text-2xl mt-44 max-md:mt-40 '>AXÉ SUR LA TECHNOLOGIE</h1>
-        <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto max-md:w-70p'>Innover pour une Afrique meilleure</h1>
+        <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto max-md:w-95p max-md:text-3xl'>Innover pour une Afrique meilleure</h1>
         <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-[19px] max-md:mb-10 max-md:w-full mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
-        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-30  mx-auto max-md:-mt-550px  max-md:h-[250px] max-md:w-[100%]' />
+        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-30  mx-auto max-md:-mt-550px max-md:w-[100%]' />
       </div>
       <div className=' grid  text-black  lg:flex justify-between mt-20 dark:text-white'>
         <div>
@@ -250,7 +250,7 @@ function App() {
       <div className='flex justify-between items-center mt-32 max-md:flex-col'>
         <div className='text-left w-60p mx-auto ml-0 max-md:w-full'>
           <h1 className='text-5xl mb-5'>Notre communauté</h1>
-          <p className='text-2xl  text-gray-500 mt-10  text-left max-md:w-full dark:text-gray-300'>Favoriser l'innovation technologique en permettant aux développeurs et aux technologues d'apprendre.</p>
+          <p className='text-2xl  text-gray-500 mt-10  text-left max-md:text-[19px] max-md:w-full dark:text-gray-300'>Favoriser l'innovation technologique en permettant aux développeurs et aux technologues d'apprendre.</p>
         </div>
         <div className='flex text-left max-md:w-full max-md:mt-10'>
           <h1 className='text-8xl'>12k+</h1>
