@@ -26,10 +26,10 @@ function App() {
         </div>
       </div>
       <div className=''>
-        <h1 className=' text-orange-500 font-bold mb-20 text-2xl mt-44 max-md:mt-28 '>AXÉ SUR LA TECHNOLOGIE</h1>
-        <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto'>Innover pour une Afrique meilleure</h1>
-        <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-2xl max-md:w-full mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
-        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-20  mx-auto max-md:-mt-550px max-md:w-full' />
+        <h1 className=' text-orange-500 font-bold mb-20 text-2xl mt-44 max-md:mt-40 '>AXÉ SUR LA TECHNOLOGIE</h1>
+        <h1 className='text-5xl mt-10 lg:text-7xl w-50p mx-auto max-md:w-70p'>Innover pour une Afrique meilleure</h1>
+        <p className='text-2xl -mb-20 w-60p text-gray-500  mt-10  max-md:text-[19px] max-md:mb-10 max-md:w-full mx-auto dark:text-gray-200'>En tirant parti des technologies innoventes et durables,Updev se consacre àpromouvoir un changement social et un avenir meilleur pour l'Afrique</p>
+        <img src="./ig.png" alt="" className='z-0 flex justify-center -mt-700px  w-95p opacity-30  mx-auto max-md:-mt-550px  max-md:h-[450px] max-md:w-[100%]' />
       </div>
       <div className=' grid  text-black  lg:flex justify-between mt-20 dark:text-white'>
         <div>
@@ -40,7 +40,7 @@ function App() {
         </div>
       </div>
       <div>
-        <p className='text-2xl  text-gray-500 mt-10 lg:text-2xl w-50p text-left max-md:w-full dark:text-gray-200'>Updev a créé desolutions novatrices pour les défis sociaux en Afrique comme :</p>
+        <p className='text-2xl  text-gray-500 mt-10 lg:text-2xl w-50p text-left  max-md:text-[19px] max-md:w-full dark:text-gray-200'>Updev a créé desolutions novatrices pour les défis sociaux en Afrique comme :</p>
       </div>
       <div className='flex flex-wrap gap-8 justify-center mt-20'>
         <div className='p-5  bg-blue-50 shadow-lg  lg:p-4 w-280px max-md:w-full dark:bg-blue-900'>
@@ -257,10 +257,10 @@ function App() {
         </div>
       </div>
       <div className='flex justify-between max-md:flex-col'>
-        <div className='mt-20 w-50p bg-blue-50 h-48 shadow-lg p-10 max-md:w-full max-md:h-320px dark:bg-blue-900 '>
+        <div className='mt-20 w-50p bg-blue-50 h-48 shadow-lg p-10 max-md:w-full max-md:p-7 max-md:h-fit dark:bg-blue-900 '>
           <div className='flex justify-between items-center'>
             <img src="./original.png" alt="" className='w-24' />
-            <p>Updev community</p>
+            <p className='max-md:hidden'>Updev community</p>
             <img src="External Link_48px.png" alt="" className='w-8 h-8' />
           </div>
           <div>
@@ -327,7 +327,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className='max-md:text-[12px]'>
         <div className='flex justify-between w-full mt-20 mb-5 max-md:flex '>
           <h3>clone Updev Africa</h3>
           <h3 className='text-orange-500 font-bold italic'>Ignace production</h3>
