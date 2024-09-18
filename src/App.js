@@ -201,7 +201,7 @@ function App() {
       <div className='mt-32 w-full overflow-hidden'>
         <h1 className='flex text-left text-5xl'>Roadmap</h1>
         <p className='flex text-left text-2xl  text-gray-500 mt-10 dark:text-gray-300'>les projets et l'action de UPDEV au fil des années :</p>
-        <div className='ml-36 max-md:-ml-5 max-md:mr-5'>
+        <div className='ml-36 max-md:-ml-0 max-md:mr-5'>
           <div className='text-left ml-32 w-40p mr-20 mt-10 max-md:ml-5p max-md:w-full'>
             <p className='mb-5 font-bold text-2xl ml-85p max-md:ml-0p'>2019</p>
             <h3 className='text-2xl text-orange-500 font-bold mb-5'>Création de l'Entreprise UPDEV</h3>
